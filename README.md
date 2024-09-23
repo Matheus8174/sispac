@@ -51,7 +51,7 @@ packages
       └─ shared tsconfig you can extend from
 ```
 
-## 🧑‍💻 Stay up to date
+## 🧑‍💻 How to setup and run this project?
 
 To get started with this project, ensure you have the following technologies installed on your computer:
 
