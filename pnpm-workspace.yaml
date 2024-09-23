@@ -1,0 +1,16 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+catalog:
+  zod: ^3.23.8
+  tsup: ^8.0.1
+  typescript: ^5.5.4
+  eslint: ^9.9.0
+  prettier: ^3.3.3
+  tailwindcss: ^3.4.10
+  tailwind-variants: ^0.2.1
+  react-native-reanimated: 3.10.1
+  nativewind: ~4.0.36
+  react-hook-form: ^7.53.0
+  react-native-web: ^0.19.12
