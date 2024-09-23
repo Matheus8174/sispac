@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@expo-starter/ui/*": ["../../packages/ui/src/*"]
+    },
+    "strict": true,
+    "allowJs": true,
+    "types": ["nativewind/types"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "eslint.config.mjs",
+    "src",
+    "*.ts",
+    "*.js",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "../../packages/ui/src/**/*.{ts,tsx}",
+    "tailwind.config.js"
+  ]
+}
