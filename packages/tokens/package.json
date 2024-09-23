@@ -1,0 +1,21 @@
+{
+  "name": "@sispac/tokens",
+  "version": "0.0.0",
+  "types": "./dist",
+  "exports": "./dist/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "postinstall": "pnpm build"
+  },
+  "devDependencies": {
+    "@sispac/eslint-config": "workspace:*",
+    "@sispac/prettier-config": "workspace:*",
+    "@sispac/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@sispac/prettier-config"
+}
