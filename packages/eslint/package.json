@@ -1,0 +1,38 @@
+{
+  "name": "@sispac/eslint-config",
+  "private": true,
+  "type": "module",
+  "types": "./types.d.ts",
+  "exports": {
+    "./base": "./dist/base.js",
+    "./nextjs": "./dist/next.js",
+    "./react": "./dist/react.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "postinstall": "pnpm build",
+    "clean": "git clean -xdf .cache .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@next/eslint-plugin-next": "^14.2.5",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-turbo": "^2.1.1",
+    "typescript-eslint": "^8.3.0"
+  },
+  "devDependencies": {
+    "@sispac/prettier-config": "workspace:*",
+    "prettier": "catalog:",
+    "@sispac/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@sispac/prettier-config"
+}
