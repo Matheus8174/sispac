@@ -1,0 +1,9 @@
+{
+  "extends": "@sispac/typescript-config/react-native-library",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "preserve"
+  }
+}
