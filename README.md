@@ -95,3 +95,8 @@ pnpm dev
 ```
 
 This will start the development server for the selected application. Enjoy coding! 🚀
+
+## To-do
+
+- [x] support svg from ui package in mobile app
+- [ ] make reanimated work in both apps

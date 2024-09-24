@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <View className="bg-black-100 flex-1 justify-around px-7 py-10">
+      <View className="flex-1 justify-around bg-black-100 px-7 py-10">
         <Text variant="h3" className="max-w-96 font-normal">
           Faça Login para aproveitar a melhor plataforma de aprendizado:
         </Text>
@@ -26,6 +26,7 @@ function Home() {
             placeholder="Sua senha:"
             autoCapitalize="none"
             placeholderAnimation
+            password
             variant="outlined"
           />
 
