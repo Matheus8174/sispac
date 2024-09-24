@@ -10,7 +10,6 @@ const config = {
     '@sispac/ui',
     'react-native-gesture-handler',
     'react-native-reanimated',
-    'react-native-vector-icons',
     'react-native-css-interop'
   ],
   webpack: (config) => {
