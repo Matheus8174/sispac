@@ -38,6 +38,7 @@
     "babel-plugin-react-native-web": "^0.19.12",
     "eslint": "catalog:",
     "prettier": "catalog:",
+    "react-native-svg-transformer": "^1.5.0",
     "typescript": "catalog:"
   },
   "prettier": "@sispac/prettier-config"
