@@ -16,12 +16,12 @@
     "@types/react-native": "^0.73.0",
     "eslint": "catalog:",
     "prettier": "catalog:",
-    "react-native-reanimated": "catalog:",
     "react-native-web": "catalog:",
     "tsup": "catalog:",
     "typescript": "catalog:"
   },
   "dependencies": {
+    "react-native-reanimated": "catalog:",
     "@sispac/tokens": "workspace:*",
     "nativewind": "catalog:",
     "react": "^18.2.0",

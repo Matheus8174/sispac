@@ -99,4 +99,5 @@ This will start the development server for the selected application. Enjoy codin
 ## To-do
 
 - [x] support svg from ui package in mobile app
-- [ ] make reanimated work in both apps
+- [x] make reanimated work in both apps
+- [ ] load fonts in both apps

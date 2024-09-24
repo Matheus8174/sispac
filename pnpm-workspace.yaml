@@ -10,7 +10,7 @@ catalog:
   prettier: ^3.3.3
   tailwindcss: ^3.4.10
   tailwind-variants: ^0.2.1
-  react-native-reanimated: 3.10.1
+  react-native-reanimated: 3.15.2
   nativewind: ~4.0.36
   react-hook-form: ^7.53.0
   react-native-web: ^0.19.12
