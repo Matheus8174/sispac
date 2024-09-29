@@ -29,12 +29,12 @@ It uses [Turborepo](https://turborepo.org) and contains:
 .vscode
   └─ Recommended extensions and settings for VSCode users
 apps
-  ├─ expo
+  ├─ mobile
   |   ├─ Expo SDK 51
   |   ├─ React Native using React 18
   |   ├─ Navigation using Expo Router
   |   └─ Tailwind using NativeWind
-  └─ next.js
+  └─ web
       ├─ Next.js 14
       ├─ React 18
       └─ Tailwind CSS
@@ -95,9 +95,3 @@ pnpm dev
 ```
 
 This will start the development server for the selected application. Enjoy coding! 🚀
-
-## To-do
-
-- [x] support svg from ui package in mobile app
-- [x] make reanimated work in both apps
-- [ ] load fonts in both apps
