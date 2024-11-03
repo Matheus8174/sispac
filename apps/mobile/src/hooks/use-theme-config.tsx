@@ -10,7 +10,7 @@ import { colors } from '@sispac/tokens';
 const DarkTheme: Theme = {
   ..._DarkTheme,
   colors: {
-    ..._DarkTheme.colors,
+    notification: '#EBEBF5',
     primary: colors.blue['100'],
     background: colors.black[100],
     text: colors.white,
