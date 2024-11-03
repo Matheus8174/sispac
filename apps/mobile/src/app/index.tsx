@@ -1,15 +1,16 @@
+import React from 'react';
 import { View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Link, useNavigation } from 'expo-router';
+import { Link, useRouter } from 'expo-router';
 
 import { Button, Text, TextInput } from '@sispac/ui';
 
 function Home() {
-  const { navigate } = useNavigation();
+  const { push } = useRouter();
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <View className="flex-1 justify-around bg-black-100 px-7 py-10">
+      <View className="flex-1 justify-around px-7 py-10">
         <Text variant="h3" className="max-w-96 font-normal">
           Faça Login para aproveitar a melhor plataforma de aprendizado:
         </Text>
@@ -31,7 +32,7 @@ function Home() {
           />
 
           <View className="flex w-full gap-12">
-            <Button.Root>
+            <Button.Root onPress={() => push('/(app)/map')}>
               <Button.Text>Log in</Button.Text>
             </Button.Root>
 
@@ -41,7 +42,7 @@ function Home() {
           </View>
         </View>
 
-        <Button.Root variant="outlined" onPress={() => navigate('register')}>
+        <Button.Root variant="outlined" onPress={() => push('/register')}>
           <Button.Text className="text-white">Criar uma nova conta</Button.Text>
         </Button.Root>
       </View>
