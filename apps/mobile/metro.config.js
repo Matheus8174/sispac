@@ -16,6 +16,13 @@ const config = withTurborepoManagedCache(
 
 const { transformer, resolver } = config;
 
+// fix axios network error
+config.resolver.unstable_conditionNames = [
+  'browser',
+  'require',
+  'react-native'
+];
+
 config.transformer = {
   ...transformer,
   babelTransformerPath: require.resolve('react-native-svg-transformer/expo')

@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.matheus8174.sispacmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,6 +32,11 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ce9c6f1-50d5-413e-974a-9f62820f1aa6"
+      }
     }
   }
 }
