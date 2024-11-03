@@ -1,7 +1,7 @@
 {
   "name": "@sispac/ui",
   "version": "0.0.0",
-  "types": "./dist",
+  "types": "./dist/index.d.ts",
   "exports": "./src/index.ts",
   "type": "module",
   "scripts": {
